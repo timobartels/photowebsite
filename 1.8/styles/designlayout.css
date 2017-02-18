@@ -1,0 +1,525 @@
+body, html {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+text-align: center;
+background-color:#b0c0c5;
+}
+table.center_parent {
+width: 100%;
+height: 100%;
+border: 0px;
+margin: 0px;
+padding: 0px;
+text-align: center;
+vertical-align: middle;
+}
+.home #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_home.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.home #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.home #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.home #framespace {
+	width: 655px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.home #text {
+	width: 300px;
+	height: 300px;
+	float: left;
+	padding-top: 110px;
+	padding-left: 140px;
+}
+.home #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 223px;
+}
+.home #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.home #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.home #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.home #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.home #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.home #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+}
+.latest #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_latest.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.latest #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.latest #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.latest #framespace {
+	width: 655px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.latest #help {
+	width: 83px;
+	height: 58px;
+	float: left;
+}
+.latest #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 140px;
+}
+.latest #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.latest #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.latest #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.latest #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.latest #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.latest #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+} 
+.photos #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_photos.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.photos #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.photos #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.photos #framespace {
+	width: 655px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.photos #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 223px;
+}
+.photos #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.photos #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.photos #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.photos #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.photos #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.photos #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+} 
+.tfcd #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_tfcd.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.tfcd #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.tfcd #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.tfcd #framespace {
+	width: 655px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.tfcd #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 223px;
+}
+.tfcd #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.tfcd #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.tfcd #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.tfcd #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.tfcd #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.tfcd #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+} 
+.links #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_links.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.links #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.links #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.links #framespace {
+	width: 655px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.links #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 223px;
+}
+.links #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.links #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.links #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.links #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.links #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.links #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+} 
+.imprint #container {
+	width: 870px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	height: 666px;
+	background-attachment: scroll;
+	background-image: url(../images/background_imprint.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+} 
+.imprint #header {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 870px;
+	height: 90px;
+	background-image: none;
+	float: right;
+} 
+.imprint #sidebar {
+	float: left;
+	width: 213px;
+	height: 565px;
+}
+.imprint #framespace {
+	width: 646px;
+	height: 462px;
+	float: left;
+	padding-top: 10px;
+}
+.imprint #frame_contact {
+	float: right;
+	height: 250px;
+	width: 290px;
+	padding-right: 20px;
+}
+.imprint #frame_left {
+	float: left;
+	height: 405px;
+	width: 305px;
+	padding-left: 20px;
+}
+.imprint #frame_right {
+	float: right;
+	height: 150px;
+	width: 305px;
+	padding-right: 10px;
+}
+.imprint #frame_border {
+	height: 50px;
+	width: 646px;
+	float: left;
+	margin-top: 5px;
+}
+.imprint p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #333333;
+	padding-right: 15px;
+}
+.imprint #navigation {
+	width: 200px;
+	height: 58px;
+	float: left;
+	padding-left: 223px;
+}
+.imprint #nav_1 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.imprint #nav_2 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.imprint #nav_3 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.imprint #nav_4 {
+	width:50px;
+	height:58px;
+	float: left;
+}
+.imprint #noscript {
+	width:210px;
+	height:58px;
+	float:left;
+	margin-left: 5px;
+}
+.imprint #footer {
+	width: 40px;
+	height: 20px;
+	background-image: none;
+	float: left;
+	padding-top: 15px;
+	padding-left: 605px;
+	padding-right: 10px;
+} 
+.gallery #container {
+	width: 895px;
+	height: 682px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.gallery #photo {
+	height: 627px;
+	width: 895px;
+	background: url('../images/ajax-loader.gif') no-repeat 50% 50%;
+}
+.gallery #photo img#fadeobject {
+	margin:0; 
+	padding:0;
+}
+.gallery #logo {
+	height: 55px;
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+.gallery #navigation {
+	height: 55px;
+	width: 690px;
+	float: right;
+	text-align: right;
+}
+.gallery #categorytabs {
+	height: 24px;
+	width: 895px;
+	text-align: left;
+	float: left;
+	text-align: left;
+}
