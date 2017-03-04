@@ -1,0 +1,9 @@
+---
+marathon_namespace: /photography/
+marathon_url: https://192.168.56.11
+TARGET_ENV: dev_dcos
+marathon_public_agents:
+- 192.168.56.21
+loglevel: debug
+marathon_env_constraint: dev
+
