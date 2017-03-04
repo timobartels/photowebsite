@@ -1,4 +1,4 @@
-FROM tbartels/php:7
+FROM tbartels/php:5
 
 MAINTAINER Timo Bartels <timo@bartels-online.net>
 
