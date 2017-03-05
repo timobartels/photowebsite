@@ -1,6 +1,6 @@
 # MARATHON VARS
 marathon_namespace: /photowebsite/
-marathon_url: https://192.168.56.11
+marathon_url: http://192.168.56.11
 TARGET_ENV: dev_dcos
 marathon_public_agents:
   - 192.168.56.21
