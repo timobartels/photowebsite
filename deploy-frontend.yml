@@ -1,0 +1,12 @@
+---
+- hosts: frontend
+  vars:
+      env: "{{ env }}"
+  roles:
+   - role: ../roles/marathon-deploy
+     marathon_image: "tbartels/bartelsonline:{{ version }}"
+     marathon_instances: 2
+     marathon_container_port: 80
+     marathon_labels:
+       HAPROXY_GROUP: external
+     marathon_healthcheck_path: /imprint.html

@@ -1,0 +1,34 @@
+pipelines:
+  frontend-deploy-to-integration:
+    secure_variables:
+      VAULT_KEY: "PkTVZwlGsMFKexk9lWZegQ=="
+    group: deployment
+    materials:
+      infracode:
+        git: http://githuben.intranet.mckinsey.com/DevOps-201/infracode.git
+        branch: master
+      frontend-build:
+        pipeline: frontend-build
+        stage: build-and-publish
+    stages:
+      - deploy:
+          clean_workspace: true
+          jobs:
+            marathon-deploy:
+              tasks:
+                  - fetch:
+                     pipeline: build-and-push
+                     stage: push-image
+                     job: run
+                     source: version
+                     is_file: yes
+                  - exec:
+                     command: bash
+                     arguments:
+                      - -c
+                      - echo $VAULT_KEY > vault-key
+                  - exec:
+                     command: bash
+                     arguments:
+                      - -c
+                      - docker run --rm -w /ansible/tbartels-deploy -v "$PWD":/ansible/tbartels-deploy tbartels/ansible-deployer ansible-playbook -i int/inventory deploy-frontend.yml -e @/ansible/infra/dev.yml -e @common.yml -e @dcos_login.yml -e version=1.8

@@ -1,0 +1,11 @@
+[frontend]
+dev_frontend 
+
+[frontend:vars]
+ansible_connection=local 
+marathon_id="{{marathon_namespace}}photowebsite-frontend-int" 
+marathon_cpus=.2 
+marathon_mem= 128
+marathon_service_port=10901 
+application_name=frontend 
+env=int
