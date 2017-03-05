@@ -9,4 +9,4 @@
      marathon_container_port: 80
      marathon_labels:
        HAPROXY_GROUP: external
-     marathon_healthcheck_path: /imprint.html
+     marathon_healthcheck_path: /index.html
