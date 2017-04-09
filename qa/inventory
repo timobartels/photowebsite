@@ -4,7 +4,7 @@ qa_frontend
 [frontend:vars]
 ansible_connection=local 
 marathon_id="{{marathon_namespace}}photowebsite-frontend-qa" 
-marathon_cpus=.3
+marathon_cpus=.2
 marathon_mem= 128
 marathon_service_port=10902
 application_name=frontend 
